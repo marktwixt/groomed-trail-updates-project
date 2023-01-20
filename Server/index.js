@@ -109,6 +109,6 @@ app.delete('/delete-report/:id', (req, res) => {
     });
     
     // Start the server
-    app.listen(5503, () => {
-    console.log('Server started on http://localhost:5503');
+    app.listen(5504, () => {
+    console.log('Server started on http://localhost:5504');
     });

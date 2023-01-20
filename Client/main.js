@@ -1,6 +1,7 @@
 const submitButton = document.getElementById("submit-button");
 const deleteButtons = document.getElementsByClassName("delete-button");
 const updateButtons = document.getElementsByClassName("update-button");
+const recentReportsButton = document.getElementById("get-recent-reports-btn");
 
 // Handle form submission
 submitButton.addEventListener("click", (event) => {
