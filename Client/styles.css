@@ -73,5 +73,52 @@ input[type="text"], input[type="file"] {
     input[type="submit"]:hover {
     background-color: #4F5D5C;
     }
+    #recent-reports-container {
+        background-color: rgba(102,123,118,0.1);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 2px 2px #667B76;
+        text-align: center;
+        margin-top: 20px;
+    }
     
+    #recent-reports-container h2 {
+        margin-bottom: 10px;
+    }
+    
+    #get-recent-reports-btn {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 4px;
+        background-color: #667B76;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 2px 2px #F57921;
+        transition: background-color 0.3s ease-in-out;
+    }
+    
+    #get-recent-reports-btn:hover {
+        background-color: #4F5D5C;
+    }
+    
+    .report {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .report img {
+        width: 200px;
+        height: 150px;
+        margin-right: 20px;
+        object-fit: cover;
+    }
+    
+    .report-details {
+        flex: 1;
+    }
     /* ... other styles ... */
