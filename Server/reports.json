@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "trailName": "Blue Trail",
+    "condition": "Groomed and tracked",
+    "image": "uploads/1595251315158-ski-trail.jpg",
+    "timestamp": "2022-07-20T09:12:00.000Z"
+  },
+  {
+    "id": 2,
+    "trailName": "Green Trail",
+    "condition": "Groomed and tracked",
+    "image": "uploads/1595251315158-ski-trail.jpg",
+    "timestamp": "2022-07-19T07:34:00.000Z"
+  },
+  {
+    "id": 3,
+    "trailName": "Red Trail",
+    "condition": "Groomed but not tracked",
+    "image": "uploads/1595251315158-ski-trail.jpg",
+    "timestamp": "2022-07-18T05:56:00.000Z"
+  },
+  {
+    "id": 4,
+    "trailName": "Black Trail",
+    "condition": "Not groomed, only packed",
+    "image": "uploads/1595251315158-ski-trail.jpg",
+    "timestamp": "2022-07-17T04:18:00.000Z"
+  },
+  {
+    "id": 5,
+    "trailName": "Double Black Trail",
+    "condition": "Not groomed, not packed",
+    "image": "uploads/1595251315158-ski-trail.jpg",
+    "timestamp": "2022-07-16T02:40:00.000Z"
+  }
+]

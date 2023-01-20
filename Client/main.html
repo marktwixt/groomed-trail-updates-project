@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CORBA Ski Trail Reports</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>CORBA Ski Trail Reports</h1>
+  </header>
+  <form id="report-form" enctype="multipart/form-data">
+    <label for="trail-name">Trail Name:</label>
+    <input type="text" id="trail-name" name="trailName">
+
+    <label for="condition">Condition:</label>
+    <input type="text" id="condition" name="condition">
+
+    <label for="image">Image:</label>
+    <input type="file" id="image" name="image">
+
+    <input type="submit" value="Submit" id="submit-button">
+  </form>
+  <div id="recent-reports-container">
+    <h2>Recent Reports</h2>
+    <button id="get-recent-reports-btn">Get Recent Reports</button>
+    <div id="recent-reports"></div>
+  </div>
+  <div id="reports-container"></div>
+  <script src="main.js"></script>
+</body>
+</html>
